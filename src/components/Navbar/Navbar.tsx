@@ -28,7 +28,7 @@ const Navbar = () => {
     <>
       <div className="container">
         <div className="navigation">
-          {["Bienvenido", "Catalogo", "Contacto"].map((label, index) => (
+          {["Bienvenido", "Catálogo", "Contacto"].map((label, index) => (
             <div
               key={index}
               className={`navigation-item ${
