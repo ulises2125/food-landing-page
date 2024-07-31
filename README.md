@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+Este es un proyecto de aplicación web desarrollado con React. La aplicación incluye un catálogo de productos con imágenes, precios y descripciones, y una sección de contacto para que los usuarios puedan enviar mensajes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
 
-## Available Scripts
+El proyecto está estructurado en dos secciones principales:
 
-In the project directory, you can run:
+1. **Catálogo de Productos**: Muestra una lista de productos con sus nombres, precios y una imagen representativa. El catálogo se adapta a diferentes tamaños de pantalla, garantizando una buena experiencia en dispositivos móviles y de escritorio.
 
-### `npm start`
+2. **Sección de Contacto**: Permite a los usuarios enviar un mensaje a través de un formulario. La sección incluye campos para el nombre, correo electrónico y mensaje, y valida la entrada del usuario antes de permitir el envío.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Características
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Catálogo de productos con imágenes, precios y nombres.
+- Validación de formulario de contacto.
+- Adaptación a dispositivos móviles.
 
-### `npm test`
+## Instalación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para ejecutar el proyecto en tu entorno local, sigue estos pasos:
 
-### `npm run build`
+1. **Clona el repositorio:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Navega al directorio del proyecto:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd tu-repositorio
+   ```
 
-### `npm run eject`
+3. **Instala las dependencias:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Ejecuta la aplicación:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   La aplicación se abrirá en tu navegador por defecto en [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+## Estructura del Proyecto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- `src/`
+  - `components/`
+    - `Footer/` - Componente del pie de página.
+    - `Catalog/` - Componente del catálogo de productos.
+    - `Contact/` - Componente de la sección de contacto.
+  - `pages/`
+    - `Catalog/` - Página que muestra el catálogo de productos.
+    - `Contact/` - Página que muestra la sección de contacto.
+  - `App.js` - Componente principal que gestiona las rutas.
+  - `AppRoutes.js` - Configuración de rutas de la aplicación.
+  - `index.js` - Punto de entrada de la aplicación.
